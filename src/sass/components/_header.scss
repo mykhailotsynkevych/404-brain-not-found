@@ -61,6 +61,15 @@
 
 .header-navigation__item {
     cursor: pointer;
+
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+
+
+    &:hover {
+        color: #ff6b09;
+    }
 }
 
 .header-navigation__link {
@@ -70,13 +79,21 @@
 }
 
 
-
 .header-icon {
     border: none;
     background: 0;
     margin-left: auto;
-    padding: 30px 0 30px 15px;
+    padding: 30px 0px 30px 15px;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 40px;
+    }
+
+    @media screen and (min-width: 1366px) {
+        display: none;
+    }
 }
+
 
 // Кнопки
 .button {
@@ -92,10 +109,26 @@
     cursor: pointer;
 }
 
+
 .button-animation {
     transform: scale(1);
     border: 2px solid #ff6b09;
-    transition: transform .25s cubic-bezier(.4, 0, .2, 1), border-radius .25s cubic-bezier(.4, 0, .2, 1), box-shadow .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1), background-color .25s cubic-bezier(.4, 0, .2, 1);
+    transition: transform 250ms cubic-bezier(.4, 0, .2, 1), border-radius 250ms cubic-bezier(.4, 0, .2, 1), box-shadow 250ms cubic-bezier(.4, 0, .2, 1), color 250ms cubic-bezier(.4, 0, .2, 1), background-color 250ms cubic-bezier(.4, 0, .2, 1);
+
+    &:hover,
+    &:focus {
+        border-radius: 20px;
+        color: #000000;
+        box-shadow: rgba(0, 0, 0, 0.04);
+        transform: scale(1.1);
+    }
+
+    &:active {
+        border-radius: 20px;
+        color: #000000;
+        box-shadow: rgba(0, 0, 0, 0.04);
+        transform: translateY(4px) scale(1);
+    }
 }
 
 .button-consultation {
@@ -109,4 +142,16 @@
     background: rgba(118, 69, 69, 0);
     border: 2px solid #ff6b09;
     cursor: pointer;
+}
+
+.header-flex .button-consultation {
+    @media screen and (min-width: 768px) {
+        display: block;
+        padding: 15px 10px 15px 10px;
+        margin-left: auto;
+    }
+
+    @media screen and (min-width: 1366px) {
+        padding: 26px 50px 26px 50px;
+    }
 }

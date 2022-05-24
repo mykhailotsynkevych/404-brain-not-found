@@ -40,5 +40,8 @@
         <path d="M1 7H22" stroke="black" stroke-width="2" stroke-linecap="round"/></path>
     <path d="M1 13H22" stroke="black" stroke-width="2" stroke-linecap="round"/></path>
 </symbol>
+<symbol id="icon-modal-close-icon-1" viewBox="0 0 30 32">
+    <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M1.789 28.89l25.775-25.775M27.564 28.89l-25.775-25.775"></path>
+</symbol>
 </defs>
 </svg>
