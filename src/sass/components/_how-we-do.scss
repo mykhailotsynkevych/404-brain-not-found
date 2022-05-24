@@ -91,9 +91,11 @@
         margin-left: auto;
         margin-right: auto;
 
-        width: 55px;
-        height: 55px;
-        background-color: var(--accent-color-orange);
+        
+
+        // width: 55px;
+        // height: 55px;
+        // background-color: var(--accent-color-orange);
         margin-bottom: 20px;
 
     }
@@ -128,4 +130,8 @@
 
         background-color: var(--accent-color-orange);
         }
+}
+
+.how-we-do_icon {
+    fill: var(--accent-color-orange);
 }
