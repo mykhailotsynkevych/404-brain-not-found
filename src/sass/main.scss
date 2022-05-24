@@ -11,9 +11,10 @@
 @import './base/variables';
 
 @import './components/header';
-@import './components/about.scss';
-@import './components/_guarantee';
+@import './components/about';
+@import './components/guarantee';
 
+@import './components/program-benefits';
 @import './components/problems';
 @import './components/hero';
 @import './components/advantages';
