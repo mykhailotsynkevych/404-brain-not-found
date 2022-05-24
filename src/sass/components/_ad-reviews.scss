@@ -1,0 +1,91 @@
+.reviews__title {
+  margin-bottom: 25px;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 130%;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #111518;
+}
+.reviews__label {
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+
+  letter-spacing: 0.08em;
+
+  color: #ff6b09;
+}
+.reviews__text {
+  margin-bottom: 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  letter-spacing: 0.08em;
+
+  color: #b9b9b9;
+}
+.reviews__img {
+  margin-bottom: 20px;
+}
+
+.reviews__desc {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #3d3d3d;
+}
+.reviews__link {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  text-align: center;
+
+  color: #ff6b09;
+}
+.reviews__icon--facebook {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.reviews__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews__item {
+  max-width: 54px;
+  width: 100%;
+}
