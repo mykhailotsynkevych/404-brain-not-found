@@ -1,18 +1,20 @@
-<article class="about container">
+<section class="about container">
   <h2 class="about__title">Teacher</h2>
   <div class="about__teacher">
     <div>
-      <img
-        class="about__image"
-        srcset="
-          images/teacher-mob-1x.jpg  1x,
-          images/teacher-mob-2x.jpg  2x,
-          images/teacher-desk-1x.jpg 1x,
-          images/teacher-desk-2x.jpg 2x
-        "
-        src="images/teacher-mob-1x.jpg"
-        alt="Teacher"
-      />
+      <picture>
+        <source
+          srcset="./images/teacher-mob-1x.jpg 1x, ./images/teacher-mob-2x.jpg 2x"
+          media="(max-width: 1365px)"
+        />
+
+        <source
+          srcset="./images/teacher-desk-1x.jpg 1x, ./images/teacher-desk-2x.jpg 2x"
+          media="(min-width: 1366px)"
+        />
+
+        <img class="about__image" src="./images/teacher-mob-1x.jpg" alt="Teacher" />
+      </picture>
     </div>
     <div class="about__teacher--text">
       <h3 class="about__name">Elena Moreva</h3>
@@ -42,20 +44,20 @@
         </li>
       </ul>
 
-      <ul>
-        <li>
+      <ul class="about__down--list">
+        <li class="about__down--item">
           <p class="about__down--text">
             Graduated from the Institute of International Relations of the NAU with a degree in
             translator-analyst.
           </p>
         </li>
-        <li>
+        <li class="about__down--item">
           <p class="about__down--text">
             In spare time takes courses from the best universities in the world on effective
             teaching and essay writing techniques.
           </p>
         </li>
-        <li>
+        <li class="about__down--item">
           <p class="about__down--text">
             Completed: English Grammar and Essay Writing (Berkeley), English Grammar & Style (The
             University of Queesland), How to Write an Essay (Berkeley), Academic and Business
@@ -70,4 +72,4 @@
       >
     </div>
   </div>
-</article>
+</section>

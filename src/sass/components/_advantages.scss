@@ -1,72 +1,70 @@
 .advantages {
-    padding-bottom: 45px;
+  padding-bottom: 45px;
 
-    @media screen and (min-width: 1366px) {
-        padding-bottom: 130px;
-    }
+  @media screen and (min-width: 1366px) {
+    padding-bottom: 130px;
+  }
 }
 
 .advantages-list {
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        overflow: hidden;
-    }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  }
 }
 
 .advantages-item {
-    display: flex;
-    align-items: center;
-    height: 69px;
-    padding-right: 0;
-    font-weight: 700;
-    line-height: 1.649;
-    letter-spacing: .08em;
-    color: #111518;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  padding-right: 0;
+  font-weight: 700;
+  line-height: 1.649;
+  letter-spacing: 0.08em;
+  color: #111518;
 
-    &:not(:first-child) {
-        padding-right: 7%;
-    }
+  &:not(:first-child) {
+    padding-right: 7%;
+  }
 
-    @media screen and (min-width: 768px) {
-        min-width: 235px;
-        line-height: 1.43;
-    }
+  @media screen and (min-width: 768px) {
+    min-width: 235px;
+    line-height: 1.43;
+  }
 
-    @media screen and (min-width: 1366px) {
-        max-width: 370px;
-        height: 102px;
-        font-size: 20px;
-    }
-
-
+  @media screen and (min-width: 1366px) {
+    max-width: 370px;
+    height: 102px;
+    font-size: 20px;
+  }
 }
 
 .advantages-item:before {
-    content: "";
-    min-width: 60px;
-    min-height: 60px;
-    margin-right: 10px;
-    background-image: url(/images/icon/Advantages1.svg);
-    // (/team-6-proj/icon-advantages-1.c0512af4.svg);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
+  content: '';
+  min-width: 60px;
+  min-height: 60px;
+  margin-right: 10px;
+  background-image: url(/images/icon/Advantages1.svg);
+  // (/team-6-proj/icon-advantages-1.c0512af4.svg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 
 .advantages .container {
-    padding-left: 52px;
-    padding-right: 52px;
+  padding-left: 52px;
+  padding-right: 52px;
 
-    @media screen and (min-width: 768px) {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
+  @media screen and (min-width: 768px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .advantages-item:not(:last-child) {
-    @media screen and (max-width: 767px) {
-        margin-bottom: 20px;
-    }
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
 }
