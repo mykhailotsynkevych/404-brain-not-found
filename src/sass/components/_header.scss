@@ -1,3 +1,17 @@
-header {
-    background: black;
+.header {
+    position: relative;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    display: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #b9b9b9;
 }
