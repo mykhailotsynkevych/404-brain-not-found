@@ -15,7 +15,7 @@
   }
 
   &__list {
-    padding: 40px 20px 40px 27px;
+    padding: 45px 20px;
     background-color: #f1f1f1;
   }
 
@@ -44,5 +44,17 @@
 
   .accent {
     color: #ff6b09;
+  }
+}
+
+@media screen and(min-width:768px) {
+  .guarantee {
+    &__list {
+      padding: 30px 64px;
+    }
+
+    &__text {
+      max-width: 500px;
+    }
   }
 }
