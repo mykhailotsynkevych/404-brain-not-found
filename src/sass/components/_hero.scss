@@ -42,6 +42,11 @@
 .hero-img {
   margin-left: auto;
   margin-right: auto;
+
+  animation-name: changeOpacity;
+  animation-duration: 2500ms;
+  animation-timing-function: linear;
+  animation-delay: 200ms;
 }
 
 .hero-title {

@@ -5,16 +5,16 @@
   --primary-white-color: #ffffff;
 }
 
-// @keyframes changeBgColor {
-//   0% {
-//     background-color: #FFD500;
-//   }
+@keyframes changeOpacity {
+  0% {
+    opacity: 0;
+  }
 
-//   50% {
-//     background-color: #E49800;
-//   }
+  50% {
+    opacity: 0.5;
+  }
 
-//   100% {
-//     background-color: var(--accent-color-orange);
-//   }
-// }
+  100% {
+    opacity: 1;
+  }
+}
