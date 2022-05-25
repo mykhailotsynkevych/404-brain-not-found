@@ -23,13 +23,29 @@
   text-transform: uppercase;
   color: #b9b9b9;
 
-  // &header-link+&header-link {
-  //     margin-left: 50px;
-  // }
-
   @media screen and (min-width: 1366px) {
     display: flex;
     padding: 32px 0;
+  }
+
+  &__item {
+    cursor: pointer;
+
+
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+
+    &:hover {
+      color: #ff6b09;
+    }
+
+  }
+
+  &__link {
+    display: inline;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -59,28 +75,8 @@
   }
 }
 
-.header-navigation__item {
-  cursor: pointer;
 
-
-  &:not(:last-child) {
-    margin-right: 40px;
-  }
-
-  &:hover {
-    color: #ff6b09;
-  }
-
-
-}
-
-.header-navigation__link {
-  display: inline;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.header-icon {
+.header-btn-icon {
   border: none;
   background: 0;
   margin-left: auto;
@@ -94,81 +90,9 @@
   @media screen and (min-width: 1366px) {
     display: none;
   }
-}
-.header-burger {
-  stroke: black;
 
-  padding: 30px 0 30px 15px;
-
-}
-
-// Кнопки
-.button {
-  display: flex;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #fff;
-  background: #ff6b09;
-  border: 0;
-  cursor: pointer;
-}
-
-.button-animation {
-  transform: scale(1);
-  border: 2px solid #ff6b09;
-
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: rgba(0, 0, 0, 0.04);
-    transform: scale(1.1);
-  }
-
-  &:active {
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: rgba(0, 0, 0, 0.04);
-    transform: translateY(4px) scale(1);
-  }
-
-  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    border-radius 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-    color 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.button-consultation {
-  display: none;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #ff6b09;
-  background: rgba(118, 69, 69, 0);
-  border: 2px solid #ff6b09;
-  cursor: pointer;
-}
-
-
-.header-flex .button-consultation {
-  @media screen and (min-width: 768px) {
-    display: block;
-    padding: 15px 10px 15px 10px;
-    margin-left: auto;
-  }
-
-  @media screen and (min-width: 1366px) {
-    padding: 26px 50px 26px 50px;
+  &__burger {
+    stroke: black;
+    // padding: 30px 0 30px 15px;
   }
 }
-
-

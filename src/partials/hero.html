@@ -1,5 +1,5 @@
 <!-- id="id-page-hero" -->
-<section class="hero hero-wave">
+<section class="hero hero-wave" id="id-page-hero">
     <div class="container hero-flex">
         <div class="hero-menu">
             <h1 class="hero-title">Complex preparation for English UPE</h1>
@@ -11,15 +11,32 @@
         </div>
         <div class="hero-picture">
             <picture>
-                <source srcset="./images/hero-img/mobile/group.jpg 1x,./images/hero-img/mobile/group@2x.jpg 2x"
+                <!-- Главное фото Hero -->
+                <source
+                    srcset="./images/hero-img/mobile/group-web.webp 1x, ./images/hero-img/mobile/group@2x-web.webp 2x"
+                    type="image/webp" media="(max-width: 767px)">
+
+                <source srcset="./images/hero-img/mobile/group.png 1x,./images/hero-img/mobile/group@2x.png 2x"
                     media="(max-width: 767px)">
 
-                <source srcset="./images/hero-img/tablet/group.jpg 1x,./images/hero-img/tablet/group@2x.jpg 2x"
+
+                <source
+                    srcset="./images/hero-img/tablet/group-web.webp 1x, ./images/hero-img/tablet/group@2x-web.webp 2x"
+                    type="image/webp" media="(max-width: 1365px)">
+
+                <source srcset="./images/hero-img/tablet/group.png 1x,./images/hero-img/tablet/group@2x.png 2x"
                     media="(max-width: 1365px)">
 
-                <source srcset="./images/hero-img/desktop/group.jpg 1x,./images/hero-img/desktop/group@2x.jpg 2x"
+
+                <source
+                    srcset="./images/hero-img/desktop/group-web.webp 1x, ./images/hero-img/tablet/group@2x-web.webp 2x"
+                    type="image/webp" media="(max-width: 1366px)">
+
+                <source srcset="./images/hero-img/desktop/group.png 1x,./images/hero-img/desktop/group@2x.png 2x"
                     media="(min-width: 1366px)">
-                <img class="hero-img" src="./images/hero-img/mobile/group.jpg" alt="Free lesson">
+
+
+                <img class="hero-img" src="./images/hero-img/mobile/group.png" alt="Free lesson">
             </picture>
 
 
