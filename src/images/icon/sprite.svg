@@ -35,13 +35,14 @@
             <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M2.286 16h48"></path>
             <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M2.286 29.714h48"></path>
         </symbol>
-        <symbol id="icon-menu2" viewBox="0 0 23 14">
-            <path d="M1 1H22" stroke="black" stroke-width="2" stroke-linecap="round"/></path>
-        <path d="M1 7H22" stroke="black" stroke-width="2" stroke-linecap="round"/></path>
-    <path d="M1 13H22" stroke="black" stroke-width="2" stroke-linecap="round"/></path>
-</symbol>
-<symbol id="icon-modal-close-icon-1" viewBox="0 0 30 32">
-    <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M1.789 28.89l25.775-25.775M27.564 28.89l-25.775-25.775"></path>
-</symbol>
-</defs>
+        <symbol id="icon-menu2"  viewBox="0 0 21 14" >
+            <path d="M0 1H20.5"  stroke-width="2"/>
+            <path d="M0 7H20.5"  stroke-width="2"/>
+            <path d="M0 13H20.5"  stroke-width="2"/>
+        </symbol>
+        <symbol id="icon-modal-close-icon" viewBox="0 0 18 18" >
+            <path d="M1 17L17 1"  stroke-width="2"/>
+            <path d="M17 17L1 1"  stroke-width="2"/>
+        </symbol>
+    </defs>
 </svg>
