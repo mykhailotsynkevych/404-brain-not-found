@@ -4,3 +4,17 @@
   --text-color: #b9b9b9;
   --primary-white-color: #ffffff;
 }
+
+@keyframes changeOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

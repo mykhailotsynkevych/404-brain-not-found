@@ -12,12 +12,12 @@
 
 .hero-menu {
 
-    display: inherit;
+  display: inherit;
 
-    @media screen and (min-width: 768px) {
-        flex-direction: column;
-        width: 330px;
-    }
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    width: 330px;
+  }
 
   display: inherit;
 
@@ -34,14 +34,19 @@
 
 .hero-picture {
 
-    @media screen and (min-width: 1366px) {
-        transform: translateX(105px) translateY(-55px);
-    }
+  @media screen and (min-width: 1366px) {
+    transform: translateX(105px) translateY(-55px);
+  }
 }
 
 .hero-img {
   margin-left: auto;
   margin-right: auto;
+
+  animation-name: changeOpacity;
+  animation-duration: 2500ms;
+  animation-timing-function: linear;
+  animation-delay: 200ms;
 }
 
 .hero-title {
@@ -117,6 +122,8 @@
   margin-right: auto;
   margin-bottom: 55px;
   padding: 14px 43px;
+
+
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
