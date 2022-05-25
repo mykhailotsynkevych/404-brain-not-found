@@ -9,9 +9,13 @@
   }
 
   @media screen and (min-width: 1366px) {
-    background-image: linear-gradient(to bottom, #111518 80%, #ffffff 20%);
-    padding-top: 100px;
-    margin-bottom: 130px;
+    background-image: linear-gradient(to bottom, #111518 80%, #ffffff 20%),
+      url(../images/how-we-do/icon-campfire.svg);
+    padding: 100px 50px 130px;
+    background-size: contain, 400px 445px, contain;
+    background-repeat: ;
+    // padding-top: 100px;
+    // margin-bottom: 130px;
   }
 }
 
