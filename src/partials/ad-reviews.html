@@ -1,11 +1,12 @@
 <section class="reviews" id="id-page-contacts">
   <div class="container">
     <h2 class="reviews__title">Feedback from graduates</h2>
-    <div class="reviews__wrapper slider-for-js">
+    <div class="slider">
+    <div class="reviews__wrapper" data-slider-for>
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-a1.png 1x, ./images/reviews/girl-a2.png 2x"
             src="./images/reviews/girl-a1.png"
             alt="Десктопные приложения"
@@ -33,7 +34,7 @@
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-b1.png 1x, ./images/reviews/girl-b2.png 2x"
             src="./images/reviews/girl-b1.png"
             alt="Десктопные приложения"
@@ -61,7 +62,7 @@
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-c1.png 1x, ./images/reviews/girl-c2.png 2x"
             src="./images/reviews/girl-c1.png"
             alt="Десктопные приложения"
@@ -89,7 +90,7 @@
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-d1.png 1x, ./images/reviews/girl-d2png.png 2x"
             src="./images/reviews/girl-d1.png"
             alt="Десктопные приложения"
@@ -117,7 +118,7 @@
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-e1.png 1x, ./images/reviews/girl-e2.png 2x"
             src="./images/reviews/girl-e1.png"
             alt="Десктопные приложения"
@@ -145,7 +146,7 @@
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-f1.png 1x, ./images/reviews/girl-f2.png 2x"
             src="./images/reviews/girl-f1.png"
             alt="Десктопные приложения"
@@ -173,7 +174,7 @@
       <div class="article">
         <div class="reviews__img--social">
           <img
-            class="reviews__img"
+            class="reviews__avatar"
             srcset="./images/reviews/girl-g1.png 1x, ./images/reviews/girl-g2.png 2x"
             src="./images/reviews/girl-g1.png"
             alt="Десктопные приложения"
@@ -198,37 +199,9 @@
           <a class="reviews__link" href="" target="_blank">Read more</a>
         </div>
       </div>
-      <!-- <div class="article">
-        <div class="reviews__img--social">
-          <img
-            class="reviews__img"
-            srcset="./images/reviews/girl-a1.png 1x, ./images/reviews/girl-a2.png 2x"
-            src="./images/reviews/girl-a1.png"
-            alt="Десктопные приложения"
-          />
-          <a href="https://ru-ru.facebook.com/" class="article__link"
-            ><svg class="reviews__icon--facebook">
-              <use href="./images/icon/sprite.svg#facebook" width="30px" height="30px"></use></svg
-          ></a>
-        </div>
-        <div class="reviews__text--wrapper">
-          <h3 class="reviews__label">Tonya Kucherovskaya</h3>
-          <p class="reviews__text">
-            Graduated from 2015, National University of Bioresources and natural history of Ukraine
-          </p>
-          <p class="reviews__desc">
-            In a short time with Elena, I mastered grammar and replenished my completely empty
-            vocabulary. From the first lesson I realized that I was on my plate. Elena and I became
-            friends because she was really worried about my success. She became an authority for me,
-            but I did not tremble in class, fearing to make the slightest mistake. Now I can brag
-            that I'm student ...
-          </p>
-          <a class="reviews__link" href="" target="_blank">Read more</a>
-        </div>
-      </div> -->
     </div>
 
-    <div class="reviews_list slider-nav-js">
+    <div class="reviews_list" data-slider-nav>
       <div class="reviews__item">
         <img
           class="reviews__img"
@@ -289,7 +262,7 @@
           height="150px"
         />
       </div>
-      <!-- <div class="reviews__item">
+      <div class="reviews__item">
         <img
           class="reviews__img"
           srcset="./images/reviews/girl-g1.png 1x, ./images/reviews/girl-g2.png 2x"
@@ -298,7 +271,7 @@
           width="150px"
           height="150px"
         />
-      </div> -->
+      </div>
     </div>
 
     <button class="reviews__arrow reviews__arrow--prev">
@@ -311,5 +284,6 @@
         <use href="./images/icon/sprite.svg#right-arrow"></use>
       </svg>
     </button>
+  </div>
   </div>
 </section>
