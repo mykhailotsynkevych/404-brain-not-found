@@ -1,17 +1,16 @@
 .footer {
-  padding: 30px;
-}
-.footer__list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 30px;
   @media screen and(min-width:768px) {
-    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  @media screen and(min-width:1366px) {
+    padding-top: 52px;
+    padding-bottom: 52px;
   }
 }
-.footer__item {
-  margin-bottom: 30px;
-}
+
 .footer__phone {
   width: 20px;
   height: 20px;
@@ -32,6 +31,13 @@
 .footer__link--logo {
   width: 80px;
   height: 30px;
+  @media screen and(min-width:768px) {
+    width: 128px;
+    height: 45px;
+  }
+  @media screen and(min-width:1366px) {
+    margin-right: 320px;
+  }
 }
 
 .footer__desc {
@@ -41,14 +47,80 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
-  /* identical to box height, or 200% */
-
   color: #b9b9b9;
-
   text-align: center;
+  @media screen and(min-width:768px) {
+    text-align: left;
+    padding-left: 40px;
+  }
+  @media screen and(min-width:1366px) {
+    padding-left: 25px;
+  }
 }
 .footer__floor {
   width: 100%;
   height: 68px;
   background-color: #111518;
+}
+.footer__item--phone {
+  padding-right: 30px;
+  margin-right: 40px;
+  margin-left: auto;
+  @media screen and(min-width:768px) {
+    border-right: 1px solid #b9b9b9;
+    margin: 0;
+  }
+}
+.footer__top {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    padding: 30px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    margin-left: auto;
+    @media screen and(min-width:1366px) {
+      margin-left: 0;
+    }
+  }
+}
+.footer__link--phone {
+  margin-bottom: 30px;
+  justify-content: baseline;
+  align-items: center;
+
+  @media screen and(min-width:768px) {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  @media screen and(min-width:1366px) {
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 1.23;
+  }
+}
+.footer__link--logo {
+  margin-bottom: 22px;
+  @media screen and(min-width:768px) {
+    margin-bottom: 0;
+  }
+}
+.footer__social {
+  @media screen and(min-width:768px) {
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid #b9b9b9;
+  }
+  @media screen and (min-width: 1366px) {
+    padding-left: 30px;
+    margin-left: 30px;
+  }
 }
