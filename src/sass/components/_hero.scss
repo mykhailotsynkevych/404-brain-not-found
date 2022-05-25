@@ -32,6 +32,13 @@
   }
 }
 
+.hero-picture {
+
+    @media screen and (min-width: 1366px) {
+        transform: translateX(105px) translateY(-55px);
+    }
+}
+
 .hero-img {
   margin-left: auto;
   margin-right: auto;
