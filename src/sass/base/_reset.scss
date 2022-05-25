@@ -1,3 +1,16 @@
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    counter-reset: section;
+
+    &.form-open {
+        overflow: hidden;
+    }
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -5,22 +18,39 @@ img {
 }
 
 a {
+
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+// Вынес "ul" отдельно.
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
   text-decoration: none;
+
 }
 
 h1,
 h2,
 h3,
-h4,
-ul,
 p {
   margin: 0;
   padding: 0;
 }
 
+
+// ul {
+//     list-style: none;
+// }
+
 ul {
   list-style: none;
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -35,3 +65,5 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
