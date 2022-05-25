@@ -1,37 +1,66 @@
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  counter-reset: section;
+
+  &.form-open {
+    overflow: hidden;
+  }
+}
+
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+// Вынес "ul" отдельно.
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+
 }
 
 h1,
 h2,
 h3,
-ul,
 p {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
+
+
+// ul {
+//     list-style: none;
+// }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

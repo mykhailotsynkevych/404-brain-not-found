@@ -1,0 +1,110 @@
+.advantages {
+  padding-bottom: 45px;
+
+  @media screen and (min-width: 1366px) {
+    padding-bottom: 130px;
+  }
+}
+
+.advantages .container {
+  padding-left: 52px;
+  padding-right: 52px;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media screen and (min-width: 1366px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.advantages-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+}
+
+.advantages-item {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  padding-right: 0;
+  font-weight: 700;
+  line-height: 1.649;
+  letter-spacing: 0.08em;
+  color: black;
+
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    &:not(:first-child) {
+      padding-right: 20%;
+    }
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 767px) {
+    width: 360px;
+    padding-right: 0;
+
+    &:not(:first-child) {
+      padding-right: 0;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    min-width: 235px;
+
+    &:not(:first-child) {
+      padding-right: 7%;
+    }
+
+    line-height: 1.43;
+  }
+
+  @media screen and (min-width: 1366px) {
+    max-width: 370px;
+    height: 102px;
+    font-size: 20px;
+
+    &:not(:first-child) {
+      padding-right: 3%;
+    }
+  }
+}
+
+.advantages-item::before {
+  content: '';
+  min-width: 60px;
+  min-height: 60px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 1366px) {
+    min-width: 100px;
+    min-height: 102px;
+    margin-right: -18px;
+  }
+}
+
+.advantages-item:nth-child(1)::before {
+  background-image: url(../images/icon/advantages-desktop2.svg);
+}
+
+.advantages-item:nth-child(2)::before {
+  background-image: url(../images/icon/advantages-desktop1.svg);
+}
+
+.advantages-item:nth-child(3)::before {
+  background-image: url(../images/icon/advantages-desktop3.svg);
+
+}
