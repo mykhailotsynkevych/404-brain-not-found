@@ -22,6 +22,42 @@
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <!-- <include src="./partials/example.html"></include> -->
 
+
+<body>
+  <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+  <include src="./partials/header.html"></include>
+  <include src="./partials/hero.html"></include>
+  <include src="./partials/advantages.html"></include>
+  <include src="./partials/problems.html"></include>
+  <include src="./partials/modal.html"></include>
+
+  <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+  <script src="./index.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/scroll.js"></script>
+</body>
+
+<div class="footer-top">
+  <div class="footer-logo">
+    <a class="fotter-logo-link link logo" href="#id-page-header">
+      <svg class="footer-logo-icon">
+        <use href=""></use>
+      </svg>
+    </a>
+  </div>
+  <div class="footer-contact">
+    <a class="footer-tel-link link" href="tel:+38(000)0000000">
+      <svg class="footer-tel">
+        <use href=""></use>
+      </svg>+38 (000) 000 00 00</a>
+    <a class="footer-social-link" href="#" target="_blank" rel="noopener noreferrer"></a>
+  </div>
+</div>
+
+
+
+
     <include src="./partials/header.html"></include>
     <include src="./partials/hero.html"></include>
     <include src="./partials/advantages.html"></include>
@@ -34,3 +70,4 @@
     <script src="./index.js"></script>
   </body>
 </html>
+
