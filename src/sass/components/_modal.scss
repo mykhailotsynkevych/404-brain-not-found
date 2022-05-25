@@ -417,19 +417,33 @@
   }
 }
 
+// .modal-menu {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 35px;
+//   height: 35px;
+//   border-radius: 50%;
+//   background-color: transparent;
+//   border: none;
+//   // border: none;
+//   // background: 0;
+//   // margin-left: auto;
+//   // padding: 30px 0px 30px 15px;
+// }
+
 .modal-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   width: 35px;
   height: 35px;
   border-radius: 50%;
   background-color: transparent;
   border: none;
-  // border: none;
-  // background: 0;
-  // margin-left: auto;
-  // padding: 30px 0px 30px 15px;
+  /* margin-left: auto; */
+  /* padding: 26px 0 50px 15px; */
+  // transform: translate(8px, 0);
 }
 
 .modal-logo-icon {
@@ -445,6 +459,11 @@
 
 .modal-close-icon {
   stroke: #ffffff;
+
+  &:hover,
+  &:focus {
+    stroke: #ff6b09;
+  }
 }
 
 .modal-navigation {
