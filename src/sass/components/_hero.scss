@@ -12,12 +12,12 @@
 
 .hero-menu {
 
-    display: inherit;
+  display: inherit;
 
-    @media screen and (min-width: 768px) {
-        flex-direction: column;
-        width: 330px;
-    }
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    width: 330px;
+  }
 
   display: inherit;
 
@@ -34,9 +34,9 @@
 
 .hero-picture {
 
-    @media screen and (min-width: 1366px) {
-        transform: translateX(105px) translateY(-55px);
-    }
+  @media screen and (min-width: 1366px) {
+    transform: translateX(105px) translateY(-55px);
+  }
 }
 
 .hero-img {
@@ -117,6 +117,8 @@
   margin-right: auto;
   margin-bottom: 55px;
   padding: 14px 43px;
+
+
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
