@@ -24,6 +24,8 @@
   text-transform: uppercase;
   color: #b9b9b9;
 
+
+
   @media screen and (min-width: 1366px) {
     display: flex;
     padding: 32px 0;
@@ -39,6 +41,8 @@
 
     &:hover {
       color: #ff6b09;
+
+      animation: rotateX 500ms infinite alternate backwards ease-in-out 100ms;
     }
 
   }
