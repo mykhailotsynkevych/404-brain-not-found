@@ -1,12 +1,12 @@
 .hero {
-  padding-bottom: 77px;
+  padding-bottom: 70px;
 
   @media screen and (min-width: 768px) {
-    padding-bottom: 110px;
+    padding-bottom: 70px;
   }
 
   @media screen and (min-width: 1366px) {
-    padding-bottom: 107px;
+    padding-bottom: 372px;
   }
 }
 
@@ -29,13 +29,21 @@
 
   @media screen and (min-width: 1366px) {
     width: 620px;
+    padding-top: 85px;
   }
 }
 
 .hero-picture {
 
+
+
+
   @media screen and (min-width: 1366px) {
-    transform: translateX(105px) translateY(-55px);
+    position: absolute;
+    display: block;
+    right: calc(50% - 805px);
+    // right: -115px;
+    top: 0;
   }
 }
 
@@ -43,10 +51,12 @@
   margin-left: auto;
   margin-right: auto;
 
+
   animation-name: changeOpacity;
-  animation-duration: 2500ms;
+  animation-duration: 1000ms;
   animation-timing-function: linear;
   animation-delay: 200ms;
+
 }
 
 .hero-title {
@@ -111,6 +121,7 @@
   }
 
   @media screen and (min-width: 1366px) {
+    overflow-y: hidden;
     background-image: url(/images/hero-img/wave-desktop.png);
   }
 }
@@ -144,5 +155,10 @@
   @media screen and (min-width: 768px) {
     position: relative;
     display: flex;
+  }
+
+  @media screen and (min-width: 1366px) {
+    position: relative;
+    display: block;
   }
 }

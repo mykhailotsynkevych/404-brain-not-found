@@ -6,7 +6,8 @@
   }
 
   @media screen and (min-width: 1366px) {
-    padding-bottom: 55px;
+    // padding-bottom: 55px;
+    padding-bottom: 0px;
   }
 }
 
@@ -81,7 +82,13 @@
   background: 0;
   margin-left: auto;
 
-  padding: 30px 0px 30px 15px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  // padding: 30px 0px 30px 15px;
 
   @media screen and (min-width: 768px) {
     margin-left: 40px;
