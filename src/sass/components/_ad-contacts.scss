@@ -44,8 +44,7 @@
 .contacts__title {
   margin: 0 auto;
   max-width: 800px;
-  font-family: 'Montserrat';
-  font-style: normal;
+
   font-weight: 800;
   font-size: 14px;
   line-height: 130%;
@@ -68,8 +67,7 @@
 .contacts__text {
   margin: 0 auto;
   margin-bottom: 43px;
-  font-family: 'Montserrat';
-  font-style: normal;
+
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
@@ -91,8 +89,7 @@
   max-width: 280px;
   width: 100%;
   padding: 28px 15px;
-  font-family: 'Montserrat';
-  font-style: normal;
+
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
@@ -103,6 +100,12 @@
   background-color: transparent;
   border-color: #fff;
   margin-bottom: 20px;
+  transform: scale(1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and(min-width:768px) {
     max-width: 390px;
   }
@@ -110,10 +113,22 @@
     max-width: 478px;
     height: 78px;
   }
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: #ff6b09;
+    border-radius: 20px;
+    transform: scale(1.1);
+  }
+}
+.contacts__input:invalid {
+  color: red;
+  border: 2px dashed red;
+}
+.contacts__input:valid {
+  color: green;
 }
 .form__input::placeholder {
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
@@ -131,15 +146,28 @@
   color: #fff;
   background: #ff6b09;
   text-transform: uppercase;
-  font-family: 'Montserrat';
-  font-style: normal;
+
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
   cursor: pointer;
+  transform: scale(1);
+  border: 2px solid #ff6b09;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   letter-spacing: 0.08em;
   @media screen and(min-width:1366px) {
     max-width: 354px;
     height: 70px;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    border-radius: 20px;
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.04);
+    transform: scale(1.1);
   }
 }
