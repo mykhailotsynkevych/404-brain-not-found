@@ -77,8 +77,12 @@
 
   &__link:hover {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 14px;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+    @media screen and(min-width: 1366px) {
+      font-size: 22px;
+    }
   }
 }
 
