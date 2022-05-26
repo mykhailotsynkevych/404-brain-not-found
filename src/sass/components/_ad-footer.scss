@@ -19,7 +19,7 @@
 .footer__link {
   font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
 
   letter-spacing: 0.08em;
 
@@ -42,7 +42,7 @@
   padding: 20px;
 
   font-size: 14px;
-  line-height: 28px;
+  line-height: 2;
   color: #b9b9b9;
   text-align: center;
   @media screen and(min-width:768px) {
@@ -54,7 +54,6 @@
   }
 }
 .footer__floor {
-  width: 100%;
   height: 68px;
   background-color: #111518;
 }

@@ -47,8 +47,7 @@
 
   font-weight: 800;
   font-size: 14px;
-  line-height: 130%;
-  /* or 18px */
+  line-height: 1.3;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -70,17 +69,16 @@
 
   font-weight: 600;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   text-align: center;
   letter-spacing: 0.08em;
   color: #ffffff;
   @media screen and(min-width:768px) {
     font-size: 16px;
-    line-height: 20px;
   }
   @media screen and(min-width:1366px) {
     font-size: 30px;
-    line-height: 37px;
+    line-height: 1.23;
     max-width: 1080px;
   }
 }
@@ -92,7 +90,7 @@
 
   font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
 
   letter-spacing: 0.08em;
 
@@ -131,7 +129,7 @@
 .form__input::placeholder {
   font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1.21;
 
   letter-spacing: 0.08em;
 
@@ -149,7 +147,7 @@
 
   font-weight: 700;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 1.25;
   cursor: pointer;
   transform: scale(1);
   border: 2px solid #ff6b09;
