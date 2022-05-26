@@ -431,6 +431,13 @@
 .modal-menu {
   background-color: transparent;
   border: none;
+
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-logo-icon {

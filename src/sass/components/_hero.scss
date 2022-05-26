@@ -35,7 +35,11 @@
 .hero-picture {
 
   @media screen and (min-width: 1366px) {
-    transform: translateX(105px) translateY(-55px);
+    position: absolute;
+    display: block;
+
+    right: -200px;
+    top: 0;
   }
 }
 
@@ -43,10 +47,12 @@
   margin-left: auto;
   margin-right: auto;
 
+
   animation-name: changeOpacity;
   animation-duration: 2500ms;
   animation-timing-function: linear;
   animation-delay: 200ms;
+
 }
 
 .hero-title {
