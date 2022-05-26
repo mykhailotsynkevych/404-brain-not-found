@@ -1,8 +1,10 @@
 .how-we-do_section {
+  padding-top: 70px;
   padding-bottom: 40px;
 
   @media screen and (min-width: 1366px) {
     // width: 1314px;
+    padding-top: 130px;
     padding-bottom: 130px;
   }
 }
