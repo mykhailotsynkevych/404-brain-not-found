@@ -19,13 +19,6 @@
     width: 330px;
   }
 
-  display: inherit;
-
-  @media screen and (min-width: 768px) {
-    flex-direction: column;
-    width: 330px;
-  }
-
 
   @media screen and (min-width: 1366px) {
     width: 620px;
@@ -121,7 +114,7 @@
   }
 
   @media screen and (min-width: 1366px) {
-    overflow-y: hidden;
+    overflow: hidden;
     background-image: url(/images/hero-img/wave-desktop.png);
   }
 }

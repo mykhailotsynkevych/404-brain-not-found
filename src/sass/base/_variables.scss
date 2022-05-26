@@ -18,3 +18,23 @@
     opacity: 1;
   }
 }
+
+@keyframes rotateY {
+  0% {
+    transform: perspective(400px) rotateY(15deg);
+  }
+
+  100% {
+    transform: perspective(400px) rotateY(-15deg);
+  }
+}
+
+@keyframes rotateX {
+  0% {
+    transform: perspective(250px) rotateY(10deg);
+  }
+
+  100% {
+    transform: perspective(250px) rotateY(-10deg);
+  }
+}
