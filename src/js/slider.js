@@ -1,32 +1,36 @@
-$('.slider-for-js').slick({
+$('.slider-for').slick({
+  mobileFirst: true,
+  mobileFirst: true,
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
-  // fade: true,
-  asNavFor: '.slider-nav-js',
+  infinite: false,
+  asNavFor: '.slider-nav',
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        arrows: true,
+      },
+    },
+  ],
 });
 
-$('.slider-nav-js').slick({
+$('.slider-nav').slick({
   mobileFirst: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-  // infinity: true,
-  // speed: 400,
-  autoplay: true,
-  autoplaySpeed: 3000,
-  asNavFor: '.slider-for-js',
   dots: false,
-  centerMode: true,
-  focusOnSelect: true,
-  centerPadding: '0px',
-  nextArrow: $('.reviews__arrow--next'),
-  prevArrow: $('.reviews__arrow--prev'),
+  infinite: false,
+  asNavFor: '.slider-for',
   responsive: [
     {
       breakpoint: 767,
       settings: {
         slidesToShow: 7,
-        slidesToScroll: 1,
+        slidesToScroll: 7,
+        arrows: false,
+        infinite: false,
       },
     },
   ],
