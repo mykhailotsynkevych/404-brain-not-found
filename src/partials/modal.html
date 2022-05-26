@@ -38,41 +38,67 @@
 <div class="backdrop is-hidden" data-form="">
     <div class="modal">
         <form class="form" autocomplete="off">
-            <p class="form__description">Our brains are like monkeys</p>
+            <p class="form__description">No brain No problem</p>
             <label class="form__field">
                 <input class="form__input" type="text" name="name" placeholder="Arthur"
                     title="Please enter your first name" minlength="2" maxlength="30" required="">
                 <span class="form__label">Name</span>
 
                 <svg class="form__icon" width="18" height="18">
-                    <use href=""></use>
-                </svg> </label><label class="form__field"><input class="form__input" type="tel" name="tel"
-                    placeholder="+38 000 111 22 33"
+                    <use href="./images/icon/sprite.svg#icon-person-black"></use>
+                </svg>
+            </label>
+
+            <label class="form__field">
+                <input class="form__input" type="tel" name="tel" placeholder="+38 000 111 22 33"
                     title="Please enter your phone number in the format +380111222333 or 08011223344" minlength="9"
-                    maxlength="13" required=""><span class="form__label">Telephone</span> <svg class="form__icon"
-                    width="18" height="18">
-                    <use href=""></use>
-                </svg> </label> <label class="form__field"> <input class="form__input" type="email" name="email"
-                    placeholder="example@gmail.com" title="Please enter your mailbox" required=""><span
-                    class="form__label">Email</span><svg class="form__icon" width="18" height="18">
-                    <use href=""></use>
-                </svg></label><label class="form__field"><textarea class="form__comment" name="textarea" rows="8"
-                    placeholder="Enter text" title="Here you can write your comment" maxlength="300"></textarea><span
-                    class="form__label-comment">Comment</span> </label> <label class="form__policy"> <input
-                    class="form__checkbox" type="checkbox" name="policy" value="accept policy" required=""><span
-                    class="form__icon-checkbox">
+                    maxlength="13" required="">
+                <span class="form__label">Telephone</span>
+                <svg class="form__icon" width="18" height="18">
+                    <use href="./images/icon/sprite.svg#icon-phone-black"></use>
+                </svg>
+            </label>
+
+            <label class="form__field">
+                <input class="form__input" type="email" name="email" placeholder="example@gmail.com"
+                    title="Please enter your mailbox" required="">
+                <span class="form__label">Email</span>
+                <svg class="form__icon" width="18" height="18">
+                    <use href="./images/icon/sprite.svg#icon-email-black"></use>
+                </svg>
+            </label>
+
+            <label class="form__field">
+                <textarea class="form__comment" name="textarea" rows="8" placeholder="Enter text"
+                    title="Here you can write your comment" maxlength="300">
+                </textarea>
+                <span class="form__label-comment">Comment</span></label>
+
+            <label class="form__policy"><input class="form__checkbox" type="checkbox" name="policy"
+                    value="accept policy" required="">
+                <span class="form__icon-checkbox">
                     <svg class="checkbox" width="15" height="15">
-                        <use href="./images/icon/sprite.svg#icon-icon-check-1"></use>
+                        <use href="./images/icon/sprite.svg#icon-icon-check-1">
+                        </use>
                     </svg>
-                </span> <span class="form__checkbox-policy">Shut Up & Take My Money<a class="form__checkbox-link"
-                        href="">Agreement
-                        conditions</a></span></label>
-            <div class="button-submit"><button class="button button-animation button-submit__submit-button"
-                    type="submit" aria-label="Submit the inputed form"> Send </button></div>
+                </span>
+
+                <span class="form__checkbox-policy">Shut Up & Take My Money<a class="form__checkbox-link"
+                        href="">Agreement conditions</a>
+                </span>
+
+            </label>
+
+            <div class="button-submit">
+                <button class="button button-animation button-submit__submit-button" type="submit"
+                    aria-label="Submit the inputed form">Send</button>
+            </div>
             <button class="modal-close" data-form-close="" type="button" aria-label="Close subscription menu">
+
                 <svg class="modal-close__icon" width="11" height="11">
                     <use href="./images/icon/sprite.svg#icon-modal-close-icon"></use>
-                </svg> </button>
+                </svg>
+            </button>
         </form>
     </div>
 </div>
