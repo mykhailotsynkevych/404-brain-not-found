@@ -11,36 +11,6 @@
     cursor: pointer;
 }
 
-// .button-animation {
-//     transform: scale(1);
-//     border: 2px solid #ff6b09;
-
-//     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//         border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-//         color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-//     &:hover,
-//     &:focus {
-//         border-radius: 20px;
-//         color: #000000;
-//         box-shadow: rgba(0, 0, 0, 0.04);
-//         transform: scale(1.1);
-//     }
-
-//     &:active {
-//         border-radius: 20px;
-//         color: #000000;
-//         box-shadow: rgba(0, 0, 0, 0.04);
-//         transform: translateY(4px) scale(1);
-//     }
-
-//     transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-//     border-radius 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-//     box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-//     color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-//     background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-
-// }
 
 .button-consultation {
     display: none;
@@ -105,43 +75,6 @@
     }
 }
 
-// .button {
-//     display: flex;
-//     font-weight: 700;
-//     font-size: 12px;
-//     line-height: 15px;
-//     letter-spacing: 0.08em;
-//     text-transform: uppercase;
-//     color: #ffffff;
-//     background: #ff6b09;
-//     border: 0;
-//     cursor: pointer;
-
-//     &:hover,
-//     &:focus,
-//     &:active {
-//         background-color: #ffffff;
-//     }
-// }
-
-// .button-consultation {
-//     display: none;
-//     font-weight: 700;
-//     font-size: 12px;
-//     line-height: 15px;
-//     letter-spacing: 0.08em;
-//     text-transform: uppercase;
-//     color: #ff6b09;
-//     background: rgba(118, 69, 69, 0);
-//     border: 2px solid #ff6b09;
-//     cursor: pointer;
-
-//     &:hover,
-//     &:focus,
-//     &:active {
-//         background-color: #ff6b09;
-//     }
-// }
 
 .btn {
     width: 260px;
