@@ -1,7 +1,21 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import './base/container';
+@import './base/reset';
+@import './base/variables';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './utils/button';
+
+@import './components/header';
+@import './components/about';
+@import './components/guarantee';
+
+@import './components/program-benefits';
+@import './components/benefits';
+@import './components/problems';
+@import './components/how-we-do';
+@import './components/hero';
+@import './components/advantages';
+@import './components/ad-reviews';
+@import './components/ad-contacts';
+@import './components/ad-footer';
+
+@import './components/modal';

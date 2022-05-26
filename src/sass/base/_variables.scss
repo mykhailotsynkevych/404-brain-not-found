@@ -1,0 +1,40 @@
+:root {
+  --accent-color-orange: #ff6b09;
+  --title-text-color: #111518;
+  --text-color: #b9b9b9;
+  --primary-white-color: #ffffff;
+}
+
+@keyframes changeOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotateY {
+  0% {
+    transform: perspective(400px) rotateY(15deg);
+  }
+
+  100% {
+    transform: perspective(400px) rotateY(-15deg);
+  }
+}
+
+@keyframes rotateX {
+  0% {
+    transform: perspective(250px) rotateY(10deg);
+  }
+
+  100% {
+    transform: perspective(250px) rotateY(-10deg);
+  }
+}
