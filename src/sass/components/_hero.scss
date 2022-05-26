@@ -28,9 +28,6 @@
 
 .hero-picture {
 
-
-
-
   @media screen and (min-width: 1366px) {
     position: absolute;
     display: block;
@@ -43,7 +40,7 @@
 .hero-img {
   margin-left: auto;
   margin-right: auto;
-
+  width: 100%;
 
   animation-name: changeOpacity;
   animation-duration: 1000ms;
@@ -58,7 +55,7 @@
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  color: #111518;
+  color: var(--title-text-color);
 
   @media screen and (min-width: 768px) {
     display: inherit;
@@ -90,15 +87,15 @@
 
 .hero-first_davis {
   font-weight: 500;
-  color: #b9b9b9;
+  color: var(--text-color);
 }
 
 .hero-second_davis {
-  color: #111518;
+  color: var(--title-text-color);
 }
 
 .hero-fourth_davis {
-  color: #ff6b09;
+  color: var(--accent-color-orange);
 }
 
 .hero-wave {
