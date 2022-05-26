@@ -1,5 +1,5 @@
 .contacts {
-  padding: 55px 20px;
+  padding: 55px 0;
   background-color: #111518;
   background-image: url(../images/bg/mob-bg1.png);
   background-position: center;
@@ -36,7 +36,7 @@
     background-image: url(../images/bg/desk-bg2.png);
   }
 }
-.form {
+.contacts__form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +86,7 @@
     max-width: 1080px;
   }
 }
-.form__input {
+.contacts__input {
   height: 48px;
   max-width: 280px;
   width: 100%;
@@ -122,7 +122,7 @@
 
   color: #ffffff;
 }
-.form__button {
+.contacts__button {
   display: block;
   max-width: 260px;
   width: 100%;
