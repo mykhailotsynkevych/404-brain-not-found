@@ -1,4 +1,5 @@
 .problems_section {
+  position: relative;
   padding-top: 25px;
   margin-bottom: 70px;
   background-image: linear-gradient(to bottom, #111518 80%, #ffffff 20%);
@@ -9,13 +10,31 @@
   }
 
   @media screen and (min-width: 1366px) {
-    background-image: linear-gradient(to bottom, #111518 80%, #ffffff 20%),
-      url(../images/how-we-do/icon-campfire.svg);
-    padding: 100px 50px 130px;
-    background-size: contain, 400px 445px, contain;
-    background-repeat: ;
-    // padding-top: 100px;
-    // margin-bottom: 130px;
+    background: linear-gradient(to bottom, #111518 80%, #ffffff 20%);
+    //   url(../images/how-we-do/icon-campfire.svg);
+    // background-image: url(../images/how-we-do/icon-campfire.svg);
+    // padding: 100px 50px 130px;
+    // background-size: contain;
+    // width: 400px;
+    // height: 445px;
+    // background-repeat: no-repeat;
+    // background-position: bottom 260px right 0;
+    padding-top: 100px;
+    margin-bottom: 130px;
+
+    &_title::after {
+      content: '';
+      position: absolute;
+      top: 85px;
+      right: -20px;
+      width: 407px;
+
+      height: 472px;
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../images/how-we-do/icon-campfire.svg);
+    }
   }
 }
 
