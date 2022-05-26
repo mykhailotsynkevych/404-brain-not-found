@@ -50,14 +50,6 @@
     }
   }
 
-  &__icon {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    width: 18px;
-    height: 14px;
-  }
-
   &__line {
     position: absolute;
     bottom: -20px;
@@ -68,19 +60,29 @@
 
   &__down--item {
     margin-bottom: 20px;
-    font-weight: 500;
+
     font-size: 12px;
     line-height: 1.67;
     color: var(--text-color);
   }
 
   &__link {
-    font-weight: 500;
     font-size: 12px;
     line-height: 1.67;
     color: var(--accent-color-orange);
 
     border-bottom: 1px solid var(--accent-color-orange);
+    transition: font-size 250ms linear;
+  }
+
+  &__link:hover {
+    font-weight: 900;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+
+    @media screen and(min-width: 1366px) {
+      font-size: 22px;
+    }
   }
 }
 
@@ -145,11 +147,6 @@
       width: 530px;
       height: 668px;
       margin-right: 60px;
-    }
-
-    &__icon {
-      width: 25px;
-      height: 20px;
     }
 
     &__teacher--text {
@@ -222,6 +219,7 @@
   left: 0;
   width: 18px;
   height: 14px;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
