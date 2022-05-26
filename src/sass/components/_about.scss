@@ -2,6 +2,11 @@
   padding-top: 35px;
   padding-bottom: 35px;
   background-color: var(--primary-white-color);
+
+  &__list {
+    position: relative;
+  }
+
   &__title {
     margin-bottom: 30px;
     font-weight: 800;
@@ -33,6 +38,13 @@
     position: relative;
     margin-bottom: 20px;
 
+    padding-left: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+
     &:last-child {
       margin-bottom: 42px;
     }
@@ -46,15 +58,6 @@
     height: 14px;
   }
 
-  &__text {
-    padding-left: 27px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.06em;
-    color: var(--title-text-color);
-  }
-
   &__line {
     position: absolute;
     bottom: -20px;
@@ -65,9 +68,6 @@
 
   &__down--item {
     margin-bottom: 20px;
-  }
-
-  &__down--text {
     font-weight: 500;
     font-size: 12px;
     line-height: 1.67;
@@ -95,14 +95,14 @@
       margin-bottom: 0;
     }
 
-    &__text {
+    &__item {
       padding-left: 28px;
       font-size: 12px;
       line-height: 1.25;
       max-width: 369px;
     }
 
-    &__down--text {
+    &__down--item {
       font-size: 10px;
       line-height: 2;
     }
@@ -156,15 +156,13 @@
       width: 640px;
     }
 
-    &__text {
-      max-width: 530px;
-      padding-left: 62px;
-      font-size: 16px;
-      line-height: 1.25;
-    }
-
     &__item {
       margin-bottom: 30px;
+      padding-left: 62px;
+      max-width: 530px;
+
+      font-size: 16px;
+      line-height: 1.25;
 
       &:last-child {
         margin-bottom: 88px;
@@ -192,9 +190,45 @@
       line-height: 1.56;
     }
 
-    &__down--text {
+    &__down--item {
       font-size: 18px;
       line-height: 1.56;
     }
+  }
+}
+
+.about__list::after {
+  content: '';
+  position: absolute;
+  bottom: -21px;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background-color: var(--accent-color-orange);
+
+  @media screen and(min-width:768px) {
+    bottom: -31px;
+  }
+
+  @media screen and(min-width:1366px) {
+    bottom: -44px;
+  }
+}
+
+.about__item::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 18px;
+  height: 14px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/icon/about.svg);
+
+  @media screen and(min-width: 1366px) {
+    width: 25px;
+    height: 20px;
   }
 }

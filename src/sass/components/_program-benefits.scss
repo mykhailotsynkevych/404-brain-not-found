@@ -9,6 +9,7 @@
   }
 
   @media screen and (min-width: 1366px) {
+    overflow: hidden;
     padding-top: 65px;
     padding-bottom: 65px;
     width: auto;
@@ -108,14 +109,15 @@
     content: '';
     position: absolute;
     top: 85px;
-    right: -20px;
-    width: 120px;
-
+    right: calc(50% - 260px);
+    // width: 120px;
+    width: 250px;
     height: 137px;
     display: block;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../images/program-benefits/program-mob.png);
+    // background-image: url(../images/program-benefits/program-mob.png);
+    background-image: url(../images/program-benefits/program-bg.jpg);
   }
   &__list {
     padding-bottom: 8px;
@@ -196,7 +198,7 @@
     }
   }
   @media screen and (min-width: 1366px) {
-    width: 1366px;
+    width: auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -280,6 +282,7 @@
   }
 }
 .benefits {
+  counter-reset: section;
   position: relative;
   background-color: #ffffff;
   box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
@@ -310,15 +313,14 @@
   }
   &__item {
     position: relative;
-    & h3 {
+    & p {
       margin-bottom: 10px;
-
       font-style: normal;
       font-weight: 700;
       font-size: 14px;
-      line-height: 1.64;
+      line-height: 1.4;
       letter-spacing: 0.08em;
-      color: #ff6b09;
+      color: #111518;
     }
   }
   &__item::before {
@@ -345,6 +347,7 @@
     height: 2px;
     background-color: #ff6b09;
     display: block;
+
     @media screen and (min-width: 1366px) {
       width: 20px;
       top: 16px;
@@ -354,10 +357,12 @@
   @media screen and (min-width: 768px) {
     width: 688px;
     .benefits {
+      padding: 98px 40px;
       &__list {
         display: grid;
         grid-template-columns: repeat(2, auto);
         gap: 20px;
+        padding: 40px 98px;
       }
     }
   }
@@ -380,8 +385,10 @@
         line-height: 1.64;
       }
       &__item p {
+        font-style: normal;
+        font-weight: 700;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.4;
       }
     }
   }
