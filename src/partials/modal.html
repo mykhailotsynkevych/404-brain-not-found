@@ -1,8 +1,10 @@
 <div class="backdrop is-hidden" data-modal="">
     <div class="container modal">
         <div class="modal-flex">
-            <a href="" class="modal-logo-icon">
-                <svg class="modal-logo" aria-label="Logo HellEn">
+
+
+            <a href="" class="modal-logo">
+                <svg class="modal-logo__icon" aria-label="Logo HellEn">
                     <use href="./images/icon/sprite.svg#icon-mobile-logo-modal"></use>
                 </svg>
             </a>
@@ -10,8 +12,8 @@
 
             <!-- Кнопка закрытия модалки -->
 
-            <button type="button" class="modal-menu" data-modal-close="">
-                <svg class="modal-close-icon" width="15" height="15" aria-label="Mobile menu toggle">
+            <button type="button" class="modal-btn-close" data-modal-close="">
+                <svg class="modal-btn-close__icon" width="15" height="15" aria-label="Mobile menu toggle">
                     <use href="./images/icon/sprite.svg#icon-modal-close-icon"></use>
                 </svg>
             </button>
@@ -22,10 +24,16 @@
 
         <nav class="site-nav">
             <ul class="modal-navigation">
-                <li class="modal-link"><a href="#id-page-program" data-ancor-close="">Studying program</a></li>
-                <li class="modal-link"><a href="#id-page-about" data-ancor-close="">About</a></li>
-                <li class="modal-link"><a href="#id-page-how-we-do" data-ancor-close="">Training options</a> </li>
-                <li class="modal-link"><a href="#id-page-contacts" data-ancor-close="">Contacts</a></li>
+                <li class="modal-navigation__link"><a href="#id-page-program" data-ancor-close="">Studying program</a>
+                </li>
+
+                <li class="modal-navigation__link"><a href="#id-page-about" data-ancor-close="">About</a>
+                </li>
+
+                <li class="modal-navigation__link"><a href="#id-page-how-we-do" data-ancor-close="">Training options</a>
+                </li>
+
+                <li class="modal-navigation__link"><a href="#id-page-contacts" data-ancor-close="">Contacts</a></li>
             </ul>
         </nav>
 
@@ -93,6 +101,7 @@
                 <button class="button button-animation button-submit__submit-button" type="submit"
                     aria-label="Submit the inputed form">Send</button>
             </div>
+
             <button class="modal-close" data-form-close="" type="button" aria-label="Close subscription menu">
 
                 <svg class="modal-close__icon" width="11" height="11">
