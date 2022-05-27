@@ -31,10 +31,10 @@
 
 @keyframes rotateX {
   0% {
-    transform: perspective(250px) rotateY(10deg);
+    transform: perspective(250px) rotateX(10deg);
   }
 
   100% {
-    transform: perspective(250px) rotateY(-10deg);
+    transform: perspective(250px) rotateX(-10deg);
   }
 }
