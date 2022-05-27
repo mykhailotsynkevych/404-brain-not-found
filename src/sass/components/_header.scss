@@ -43,14 +43,14 @@
 
     &:hover {
       color: var(--accent-color-orange);
-      animation: rotateX 500ms infinite alternate backwards ease-in-out 100ms;
+      animation: rotateY 500ms infinite alternate backwards ease-in-out 100ms;
 
+      &:active {
+        animation: rotateY 250ms infinite alternate backwards ease-in-out 100ms;
+      }
     }
   }
 
-  // &__link {
-  //   display: inline;
-  // }
 }
 
 .header-logo {
