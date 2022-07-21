@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://mykhailotsynkevych.github.io/404-brain-not-found",
+  "homepage": "https://SerhiyDukh1984.github.io/404-brain-not-found",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /404-brain-not-found/"
